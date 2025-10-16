@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!-- this is declaration for HTML5 -->
+<html lang="en-US"> <!--  -->
+<head>
+<title>Page Title</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>Heading</h1> <!-- h1 to h6 heading, big to small -->
+
+
+<a href="url">underlined blue marked line</a> <!-- hyperlink -->
+<a href="url" target="_blank"></a>
+<!-- target="_blank",  Opens in new window or tab-->
+<!-- target="_self", Opens in same window/tab-->
+<!-- target="_parent", Opens in parent frame -->
+<!-- target="_top", Opens in full body of window-->
+<a href="url"><img src="image.png"></a>
+<a href="mailto:someone@example.com">Send email</a>
+<a href="#H">Jump to Heading</a>
+<button onclick="document.location='xyz'">button</button>
+
+
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+<!-- source file = src, alternative text = alt -->
+<!-- src="https://www.w3schools.com/images/img_girl.jpg" --> <!-- Absolute URL -->
+<!-- src="img_girl.jpg" --> <!-- Relative URL, relative to current page -->
+<!-- src="/images/img_girl.jpg" --> <!-- Relative URL, relative to domain -->
+<!-- alt="if image cannot be displayed it shows this" -->
+<img src="image.jpg" usemap="#workmap">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" href="computer.htm">
+</map>
+<picture></picture>
+
+
+<p> same paragraph</p>
+<p> same
+paragraph
+</p>
+ <b>bold</b>
+ <strong>important!</strong>
+ <i>italic</i>
+ <em>emphasized</em>
+ <small>smaller</small>
+ <mark>marked</mark>
+ <del>striked line</del>
+ <ins>inserted text</ins>
+</p>
+
+<p>text<sub>subscripted</sub>text<sup>superscripted</sup></p>
+
+<blockquote cite="http://www.google.com.html">blockquote</blockquote>
+<p><q>short quotation</q></p>
+<p><abbr title="World Health Organization">WHO</abbr></p>
+
+
+<p> line <br> this line goes to the next line</p>
+<p style="color:red;">coloured text.</p>
+<p style="background-color:tomato;">coloured background</p>
+<p style="font-family:courier;">fronted</p>
+<p style="font-size:160%;">resized</p>
+<p style="text-align:center;">aligned</p>
+<p style="border:2px solid Violet;padding: 30px;margin: 50px;">styled</p>
+<!-- color:rgb(255, 99, 71),hsl(9, 100%, 64%),#ff6347, -->
+<p style="background-image: url('img_girl.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;">
+<!-- style also works in body,heading,img,table,list,spang -->
+<p title="title">paragraph.</p>
+<p><img src="image.gif" style="float:left;width:42px;height:42px;">
+   image will float to the left of the text.</p>
+<p>normal<span style="border: 1px solid black">box</span></p>
+
+
+<pre>
+  1st line
+
+  2nd line
+</pre> <!-- displays as it is -->
+
+<!-- <address>,<p><cite>,<bdo dir="rtl">,  -->
+
+<hr> <!-- displays a horizontal rule -->
+
+
+<table style="width:100%;border: 1px solid white;border-style: dotted;">
+  <caption>Table</caption>
+  <tr> <th></th>               <th colspan="2">AA</th> <th>BB</th> </tr>
+  <tr> <th rowspan="2">AA</th> <td>11</td> <td>12</td> <td>13</td> </tr>
+  <tr>                         <td>21</td> <td>22</td> <td>23</td> </tr>
+  <tr> <th>BB</th>             <td>31</td> <td>32</td> <td>33</td> </tr>
+</table>
+
+<div style="border: 1px solid black">blocked</div>
+
+<ul style="list-style-type:circle;"> <li>a</li> <li>b</li> </ul>
+<ol type="I"> <li>a</li> <li>b</li> </ol>
+<dl>
+  <dt>A</dt> <dd>- a1</dd><dd>- a2</dd>
+  <dt>B</dt> <dd>- b1</dd><dd>- b2</dd>
+</dl>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> <!--  internal CSS -->
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+<link rel="stylesheet" href="styles.css"> <!--  external CSS -->
+</head>
+<body>
+
+<h1> heading</h1>
+<p> paragraph.</p>
+
+</body>
+</html>
